@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03B796A1EF2073A006140F2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B03B79691EF2073A006140F2 /* README.md */; };
 		B074C10F1EEF683D00B5CE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074C10E1EEF683D00B5CE08 /* AppDelegate.swift */; };
 		B074C1111EEF683D00B5CE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074C1101EEF683D00B5CE08 /* ViewController.swift */; };
 		B074C1141EEF683D00B5CE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B074C1121EEF683D00B5CE08 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B03B79691EF2073A006140F2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B074C10B1EEF683D00B5CE08 /* coreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B074C10E1EEF683D00B5CE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B074C1101EEF683D00B5CE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		B074C1021EEF683D00B5CE08 = {
 			isa = PBXGroup;
 			children = (
+				B03B79691EF2073A006140F2 /* README.md */,
 				B074C1231EEF68C500B5CE08 /* EntityVeg+CoreDataClass.swift */,
 				B074C1241EEF68C500B5CE08 /* EntityVeg+CoreDataProperties.swift */,
 				B074C10D1EEF683D00B5CE08 /* coreDataTest */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03B796A1EF2073A006140F2 /* README.md in Sources */,
 				B074C1261EEF68C500B5CE08 /* EntityVeg+CoreDataProperties.swift in Sources */,
 				B074C1171EEF683D00B5CE08 /* coreDataTest.xcdatamodeld in Sources */,
 				B074C1111EEF683D00B5CE08 /* ViewController.swift in Sources */,
@@ -314,6 +318,7 @@
 				B074C1221EEF683D00B5CE08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
